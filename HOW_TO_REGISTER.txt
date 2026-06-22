@@ -1,0 +1,234 @@
+═══════════════════════════════════════════════════════════
+    CARA DAFTAR AKUN BARU - HIJABKU
+═══════════════════════════════════════════════════════════
+
+🎯 PANDUAN LENGKAP REGISTRASI
+
+┌─────────────────────────────────────────────────────────┐
+│  STEP 1: Buka Halaman Login                             │
+└─────────────────────────────────────────────────────────┘
+
+1. Buka file: index.html (Login Page)
+2. Lihat bagian bawah form login
+3. Klik link "Daftar Akun Baru"
+
+┌─────────────────────────────────────────────────────────┐
+│  STEP 2: Isi Form Registrasi                            │
+└─────────────────────────────────────────────────────────┘
+
+Field yang Harus Diisi:
+
+✅ Nama Depan
+   • Contoh: Siti
+   
+✅ Nama Belakang
+   • Contoh: Aminah
+   
+✅ Email
+   • Format: email@example.com
+   • Harus unik (belum pernah digunakan)
+   • Contoh: siti.aminah@gmail.com
+   
+✅ Nomor Telepon
+   • Format: 08xxxxxxxxxx
+   • Harus diawali 08
+   • 10-13 digit
+   • Contoh: 081234567890
+   
+✅ Password
+   • Minimal 6 karakter
+   • Rekomendasi: gunakan kombinasi huruf & angka
+   • Contoh: Siti2024
+   
+✅ Konfirmasi Password
+   • Harus sama dengan password di atas
+   • Akan ada indikator merah jika tidak cocok
+   
+✅ Jenis Kelamin
+   • Pilih: Perempuan atau Laki-laki
+   
+✅ Alamat Lengkap
+   • Contoh: Jl. Raya Lenteng No. 10, RT 02/RW 01
+   
+✅ Kota
+   • Contoh: Sumenep
+   
+✅ Kode Pos
+   • 5 digit angka
+   • Contoh: 69451
+   
+✅ Centang "Setuju dengan Syarat & Ketentuan"
+   • Wajib dicentang
+
+┌─────────────────────────────────────────────────────────┐
+│  STEP 3: Submit & Verifikasi                            │
+└─────────────────────────────────────────────────────────┘
+
+1. Klik tombol "Daftar Sekarang"
+2. Tunggu validasi
+3. Jika ada error, perbaiki sesuai pesan
+4. Jika berhasil, akan muncul pesan:
+   "Pendaftaran berhasil! Anda akan diarahkan..."
+5. Otomatis redirect ke halaman login
+
+┌─────────────────────────────────────────────────────────┐
+│  STEP 4: Login dengan Akun Baru                         │
+└─────────────────────────────────────────────────────────┘
+
+1. Di halaman login (index.html)
+2. Masukkan email yang tadi didaftarkan
+3. Masukkan password yang tadi dibuat
+4. Klik "Masuk"
+5. Berhasil! Masuk ke dashboard
+
+═══════════════════════════════════════════════════════════
+
+🎨 CONTOH DATA REGISTRASI
+
+Untuk testing, gunakan data berikut:
+
+┌─────────────────────────────────────────────────────────┐
+│ Nama Depan        : Fatimah                             │
+│ Nama Belakang     : Zahra                               │
+│ Email             : fatimah.zahra@gmail.com             │
+│ Nomor Telepon     : 081234567890                        │
+│ Password          : fatimah123                          │
+│ Konfirmasi Pass   : fatimah123                          │
+│ Jenis Kelamin     : Perempuan                           │
+│ Alamat            : Jl. Merdeka No. 45, RT 01/RW 02     │
+│ Kota              : Sumenep                             │
+│ Kode Pos          : 69451                               │
+│ Setuju S&K        : ✓ (Centang)                         │
+└─────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════
+
+⚠️ PESAN ERROR YANG MUNGKIN MUNCUL
+
+┌──────────────────────────────────────────────────────────┐
+│ ERROR                              │ SOLUSI               │
+├────────────────────────────────────┼──────────────────────┤
+│ "Semua field wajib diisi"          │ Lengkapi semua field │
+│ "Format email tidak valid"         │ Cek format email     │
+│ "Nomor telepon harus diawali 08"   │ Ganti dengan 08xxx   │
+│ "Password minimal 6 karakter"      │ Tambah karakter pass │
+│ "Password tidak cocok"             │ Samakan konfirmasi   │
+│ "Kode pos harus 5 digit angka"     │ Masukkan 5 digit     │
+│ "Email sudah terdaftar"            │ Gunakan email lain   │
+│ "Harus menyetujui S&K"             │ Centang checkbox     │
+└────────────────────────────────────┴──────────────────────┘
+
+═══════════════════════════════════════════════════════════
+
+💡 TIPS & TRIK
+
+✅ Password Strength Indicator:
+   • Border MERAH   = Lemah (< 6 karakter)
+   • Border KUNING  = Sedang (6-8 karakter)
+   • Border HIJAU   = Kuat (>8 karakter + kombinasi)
+
+✅ Real-time Validation:
+   • Email: Validasi saat klik di luar field
+   • Phone: Validasi saat klik di luar field
+   • Password: Border berubah saat mengetik
+   • Confirm: Border merah jika tidak sama
+
+✅ Recommendations:
+   • Gunakan email yang aktif
+   • Password mudah diingat tapi kuat
+   • Nomor HP yang bisa dihubungi
+   • Alamat lengkap untuk pengiriman
+
+═══════════════════════════════════════════════════════════
+
+🔐 AKUN DEFAULT (Untuk Testing)
+
+Akun Admin (sudah ada):
+┌─────────────────────────────────────┐
+│ Email    : admin@gmail.com          │
+│ Password : admin123                 │
+└─────────────────────────────────────┘
+
+Akun User (setelah register):
+┌─────────────────────────────────────┐
+│ Email    : [sesuai registrasi]      │
+│ Password : [sesuai registrasi]      │
+└─────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════
+
+📋 CHECKLIST REGISTRASI
+
+Sebelum submit, pastikan:
+
+□ Semua field sudah diisi
+□ Email format valid (ada @ dan .)
+□ Nomor HP diawali 08
+□ Password minimal 6 karakter
+□ Konfirmasi password sama
+□ Kode pos 5 digit
+□ Checkbox S&K sudah dicentang
+□ Tidak ada border merah di field manapun
+
+═══════════════════════════════════════════════════════════
+
+🎬 VIDEO TUTORIAL (Langkah-langkah)
+
+1. Buka index.html
+2. Klik "Daftar Akun Baru"
+3. Isi form dengan data lengkap
+4. Centang "Setuju dengan Syarat & Ketentuan"
+5. Klik "Daftar Sekarang"
+6. Tunggu pesan sukses
+7. Otomatis ke halaman login
+8. Login dengan email & password baru
+9. Masuk ke dashboard ✓
+
+═══════════════════════════════════════════════════════════
+
+❓ FAQ
+
+Q: Email saya sudah terdaftar, bagaimana?
+A: Gunakan email lain atau login dengan email tersebut
+
+Q: Lupa password setelah register?
+A: Saat ini belum ada fitur reset, gunakan akun admin
+   atau register dengan email baru
+
+Q: Nomor HP tidak diawali 08, bagaimana?
+A: Format Indonesia harus diawali 08, tidak bisa +62
+
+Q: Kode pos kota saya berapa?
+A: Google "kode pos [nama kota]" atau gunakan 69451
+
+Q: Harus isi semua field?
+A: Ya, semua field dengan tanda * wajib diisi
+
+═══════════════════════════════════════════════════════════
+
+📞 BUTUH BANTUAN?
+
+Jika ada masalah saat registrasi:
+1. Cek console browser (F12) untuk error
+2. Pastikan semua field valid
+3. Coba refresh halaman
+4. Clear browser cache
+
+═══════════════════════════════════════════════════════════
+
+✅ SELESAI!
+
+Selamat! Anda berhasil membuat akun HijabKu.
+Sekarang Anda bisa:
+• Login ke dashboard
+• Browse katalog produk
+• Melakukan pemesanan
+• Tracking pesanan
+• Melihat riwayat transaksi
+• Menggunakan chatbot AI
+
+Selamat berbelanja di HijabKu! 🛍️
+
+═══════════════════════════════════════════════════════════
+
+HijabKu © 2026 - Platform Jual Beli Kerudung Online
